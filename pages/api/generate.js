@@ -86,7 +86,7 @@ async function generateChatPrompt(url) {
     return {
         prompt: [
             {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": "Write a condensed version of the text, in 150 words."},
+            {"role": "user", "content": "Write a condensed version of the text, in 120 words."},
             {"role": "user", "content": "The text is formatted as markdown."},
             {"role": "user", "content": `The title of the text is ${article.title}.`},
             {"role": "user", "content": `The text is as follows: \n${truncatedString}`}
