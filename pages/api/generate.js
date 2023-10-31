@@ -89,7 +89,7 @@ async function generateChatPrompt(url) {
             {"role": "user", "content": "Write a condensed version of the text, in less than 250 words, using PAS formula."},
             {"role": "user", "content": "The text is formatted as markdown."},
             {"role": "user", "content": "Avoid negative terms and do not mention disadvantages."},
-            {"role": "user", "content": "Target the text towards a reader, who is working as a decision maker in a logistics function of a global company."},
+            {"role": "user", "content": "Target the text towards a reader, who is working as Air freight manager at FREJA TRANSPORT & LOGISTICS OY in a Technology vertical."},
             {"role": "user", "content": `The title of the text is ${article.title}.`},
             {"role": "user", "content": `The text is as follows: \n${truncatedString}`}
         ],
