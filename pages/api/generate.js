@@ -88,7 +88,7 @@ async function generateChatPrompt(url) {
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": "Write a condensed version of the text, in 200 words, using PAS formula."},
             {"role": "user", "content": "The text is formatted as markdown."},
-            {"role": "user", "content": "Avoid negative terms."},
+            {"role": "user", "content": "Avoid negative terms and do not mention disadvantages."},
             {"role": "user", "content": "Target the text towards a reader, who is working as a decision maker in a logistics function of a global company."},
             {"role": "user", "content": `The title of the text is ${article.title}.`},
             {"role": "user", "content": `The text is as follows: \n${truncatedString}`}
