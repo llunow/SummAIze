@@ -81,6 +81,7 @@ export default function Home() {
                         value={urlInput}
                         onChange={(e) => setUrlInput(e.target.value)}
                     />
+
                     <input type="submit" value="Generate a short Summary of the 👆 URL"/>
                 </form>
 
