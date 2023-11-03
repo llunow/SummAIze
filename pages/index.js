@@ -101,7 +101,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <footer className={styles.footer}><span>Made with ❤️ by&nbsp;Lukas&nbsp;based on the&nbsp;<a href="https://github.com/openai/openai-quickstart-node.git">Quick-Start guide</a>&nbsp;from&nbsp;<a href="https://platform.openai.com/docs/quickstart/setup">OpenAI</a>.<br/>By using this tool you confirm having familiarized yourself with ChatGPT Do's and Dont's, as listed on <a href="https://teamsite.maerskgroup.com/sites/technology/SitePages/Maersk-Artificial-Intelligence-(AI)-Hub.aspx">this page</a>
+                <footer className={styles.footer}><span>Made with ❤️ by&nbsp;Lukas&nbsp;based on the&nbsp;<a href="https://github.com/openai/openai-quickstart-node.git">Quick-Start guide</a>&nbsp;from&nbsp;<a href="https://platform.openai.com/docs/quickstart/setup">OpenAI</a>.<br/>By using this tool you confirm having familiarized yourself with Maersk's <em>ChatGPT – Do’s and Don’ts</em>, as listed on <a href="https://teamsite.maerskgroup.com/sites/technology/SitePages/Maersk-Artificial-Intelligence-(AI)-Hub.aspx#chatgpt-%E2%80%93-do%E2%80%99s-and-don%E2%80%99ts">this page</a>
                 
                 </span>
                 </footer>
