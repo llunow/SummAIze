@@ -66,6 +66,7 @@ export default function Home() {
                 <meta name="description" content="Summarize links using GPT3"/>
                 <meta name="keywords" content="GPT3, OpenAI, Summarize, Summarization, AI, Machine Learning"/>
                 <meta name="author" content="George Chiramattel"/>
+                <link rel="shortcut icon" href="https://www.maersk.com/Assets_sc9/Maersk/favicon.ico?v=1" type="image/x-icon">
 
                 <title>Maersk Article Summarizer</title>
             </Head>
