@@ -37,7 +37,7 @@ export default async function (req, res) {
     try {
         const {prompt, title} = await generateChatPrompt(url);
         const chatInput = {
-            model: "gpt-3.5-turbo",
+            model: "gpt-4-1106-preview",
             messages: prompt,
             temperature: 0.4,
         };
